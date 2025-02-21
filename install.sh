@@ -10,6 +10,7 @@ if [[ ! -f ~/.vim/bundle/Vundle.vim ]]; then
 	echo "Vundle not installed. It will now be installed"
 	# installs Vundle
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+fi
 
 # opens vim to install the plugins in the .vimrc file
 echo "Installing plugins in .vimrc"
