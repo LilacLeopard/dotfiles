@@ -1,4 +1,4 @@
-set nocompatible              " be iMproved, required
+set nocompatible              " be improved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
@@ -11,10 +11,12 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Keep Plugin commands between vundle#begin/end.
-" colorscheme plugin
-Plugin 'nanotech/jellybeans.vim'
+
 " improvement plugin
 Plugin 'nathanaelkane/vim-indent-guides'
+
+" colorscheme plugin
+Plugin 'nanotech/jellybeans.vim'
 
 " Install L9 and avoid a Naming conflict if you've already installed a
 " different version somewhere else.
