@@ -14,8 +14,5 @@ fi
 
 # opens vim to install the plugins in the .vimrc file
 echo "Installing plugins in .vimrc"
+echo "Press ENTER below when prompted" # tells user to hit enter to move past the error in .vimrc for accessing the colorscheme before it's installed
 vim +PluginInstall +qall
-
-# sends a newline to simulate an ENTER key press
-# this handles the prompt that comes up due to the colorscheme in .vimrc referencing something not installed yet
-echo ""
