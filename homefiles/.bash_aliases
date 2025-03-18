@@ -1,0 +1,5 @@
+alias clr="clear"
+alias lah="ls -lah"
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit -m"
