@@ -14,5 +14,15 @@ Here is a list of aliases included in this file
 - `git add` = ga
 - `git commit -m` = gc
 
-# Citations for ALiases
+# Citations for Aliases
 https://github.com/vikaskyadav/awesome-bash-alias
+
+# Bash Function
+
+The `.bashrc` file contains a new created useful funtion. The new function it adds is `mkdirg`. This function will create a directory and immediately go to it. This will save time as you won't have to use two commands each time you want to create a new directory and move to it.
+
+`add_bashrc.sh` is a script that will copy the file here into your home directory, so you will have access to this new command.
+
+# Citation for Function
+
+https://gist.github.com/zachbrowne/8bc414c9f30192067831fafebd14255c
